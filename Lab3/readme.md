@@ -1,15 +1,27 @@
-#http module
+# HTTP Module
 
-http - hyper text transfer protocol
-html - hyper text markup language
-css - cascade style sheet
+HTTP - HyperText Transfer Protocol
 
-status codes----
+HTML - HyperText Markup Language
 
-200 - ok
-201 - created
-400 - bad request
-401 - unauthorised
-403 - forhidden
-404 - not found
+CSS - Cascading Style Sheets
 
+## Status Codes
+
+- 200 - OK
+- 201 - Created
+- 400 - Bad Request
+- 401 - Unauthorized
+- 403 - Forbidden
+- 404 - Not Found
+
+# Content-Type in Node.js
+
+`Content-Type` is an HTTP header that tells the server what type of data is being sent.
+
+## Common Types
+
+- `application/json` — JSON data
+- `text/plain` — Plain text
+- `text/html` — HTML content
+- `multipart/form-data` — File uploads
