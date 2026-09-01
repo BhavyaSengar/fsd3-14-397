@@ -1,0 +1,5 @@
+ChatGPT is an artificial intelligence assistant developed by OpenAI. It can understand and generate human-like text, making it useful for answering questions, explaining concepts, writing content, brainstorming ideas, learning, coding, and many other tasks.
+
+ChatGPT works through natural language conversations. Users can ask questions or give instructions, and it generates responses based on the context of the conversation. It can adapt its explanations to different levels of knowledge and can help simplify complex topics.
+
+ChatGPT is designed to assist people with everyday tasks as well as professional, educational, and creative work. While it can be highly useful, its responses should still be reviewed when accuracy is important.
