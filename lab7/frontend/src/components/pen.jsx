@@ -1,12 +1,21 @@
 const Pen = (props) => {
-  const { picUrl, company, price } = props.pen;
-  return (
-    <div>
-      <img src="{picUrl}" alt="{company}" />
-      <h3>{company}</h3>
-      <h4>Rs. {price}</h4>
-    </div>
-  );
-};
+    const { penComp , penPrice , penImg } = props.pen;
+    const qtyStyle = {
+        fontSize: "20px",
+        color:"blue",
+        textAlign:"center",
+        backgroundColor:"yellow",
+        borderRadius:"10px",
+        width:"100px",
+        margin:"auto"
+    }
+    return (
+        <div>
+            <img src={penImg} alt={penComp} srcset="" />
+            <h1>{penComp}</h1>
+            <h2>Price : {penPrice}</h2>
+        </div>
+    );
+}
 
 export default Pen;
