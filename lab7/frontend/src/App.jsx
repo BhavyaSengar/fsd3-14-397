@@ -1,40 +1,34 @@
+import Book from "./components/Book";
+
 const b1 = {
   picUrl:
-    "https://m.media-amazon.com/images/I/81T05w0B3lL._AC_UY327_FMwebp_QL65_.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9r8LCkI511HTcKPRyHxGLfr_8aVwurDWuenlnfqk-E2Rukgsc_ZjHyAs&s=10",
   bname: "React Design Pattern",
-  price: 1190,
+  price: 1199,
   quantity: 10,
-  rating: 4.4,
+  rating: 5.0,
 };
 
 const b2 = {
-  picUrl:"https://m.media-amazon.com/images/I/71yvX9v7UKL._AC_UY327_FMwebp_QL65_.jpg",
-  bname: "The Jungle Book",
-  price: 1390,
-  quantity: 20,
-  rating: 4.8,
+  picUrl:
+    "https://dryuc24b85zbr.cloudfront.net/tes/resources/6441170/image?width=500&height=500&version=1474643904786",
+  bname: "React Design Pattern",
+  price: 1199,
+  quantity: 10,
+  rating: 5.0,
 };
-
-function Book(props) {    // props recieve argument
-  console.log(props);
-
-  return (
-    <div>
-      <img src={props.book.picUrl} alt={b1.bname} />
-      <h1>Lets Us React</h1>
-      <h2>Price: {props.book.price}</h2>
-      <h3>Quantity: {props.book.quantity}</h3>
-      <h4>Rating: {props.book.rating} </h4>
-    </div>
-  );
-}
 
 export default function App() {
   return (
     <>
-      <Book book={b1}/>
-      <h1>Hello React</h1>
-      <Book book={b2}/>
+      <h1 className="page-title">React Book Store</h1>
+
+      <div className="container">
+        <Book book={b1} />
+        <Book book={b2} />
+        <Book book={b1} />
+        <Book book={b2} />
+      </div>
     </>
   );
 }

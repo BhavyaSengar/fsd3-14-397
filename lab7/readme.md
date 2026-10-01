@@ -23,3 +23,13 @@
 2. it must starts with capital letter
 3. it should be treated as html tag
 4. it must be closed
+
+
+## Object Destructor
+Does not depend on order.
+If property is not available then it is initilized bith NULL.
+
+Any Components includes Styles
+1. External CSS = create style in index.css and use in component
+2. Internal CSS = create property as object like
+3. Inline CSS = in this method we use two curly brackets with style attribute. All the CSS property must be single word. For example - text-align becomes textAlign (camelCase)
